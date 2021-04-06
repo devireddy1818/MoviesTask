@@ -1,0 +1,6 @@
+framework module Pods_Numiparis_Task_Numiparis_TaskUITests {
+  umbrella header "Pods-Numiparis Task-Numiparis TaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
