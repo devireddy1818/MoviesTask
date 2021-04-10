@@ -31,6 +31,10 @@
 		4B37F456261CC79B00DF7F0E /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37F455261CC79B00DF7F0E /* DetailViewModel.swift */; };
 		4B37F45B261CC7B400DF7F0E /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37F45A261CC7B400DF7F0E /* DetailCoordinator.swift */; };
 		4B37F46B261CD0BE00DF7F0E /* DeatilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37F46A261CD0BE00DF7F0E /* DeatilViewController.swift */; };
+		4B500BAF2621AE18006568EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B500BAE2621AE18006568EA /* HomeViewController.swift */; };
+		4B500BB72621AE2C006568EA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B500BB62621AE2C006568EA /* HomeViewModel.swift */; };
+		4B500BBC2621AE4C006568EA /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B500BBB2621AE4C006568EA /* HomeCoordinator.swift */; };
+		4B500BC12621AFDA006568EA /* homeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B500BC02621AFDA006568EA /* homeCollectionViewCell.swift */; };
 		CFF8B4CF5518B188961057A9 /* Pods_Numiparis_Task_Numiparis_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77B3CF8863A0F6BE655D608 /* Pods_Numiparis_Task_Numiparis_TaskUITests.framework */; };
 		E448CD0047ADF1F2CC2AC7DB /* Pods_Numiparis_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9134AB40B02562ADDF550A41 /* Pods_Numiparis_Task.framework */; };
 /* End PBXBuildFile section */
@@ -84,6 +88,10 @@
 		4B37F455261CC79B00DF7F0E /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		4B37F45A261CC7B400DF7F0E /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
 		4B37F46A261CD0BE00DF7F0E /* DeatilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeatilViewController.swift; sourceTree = "<group>"; };
+		4B500BAE2621AE18006568EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4B500BB62621AE2C006568EA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4B500BBB2621AE4C006568EA /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		4B500BC02621AFDA006568EA /* homeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeCollectionViewCell.swift; sourceTree = "<group>"; };
 		52AB8FED133B36CE291F9C8B /* Pods-Numiparis Task-Numiparis TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Numiparis Task-Numiparis TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Numiparis Task-Numiparis TaskUITests/Pods-Numiparis Task-Numiparis TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6255F6BF78EC4BF0945FBA9C /* Pods_Numiparis_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Numiparis_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9134AB40B02562ADDF550A41 /* Pods_Numiparis_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Numiparis_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +159,7 @@
 				4B37F38E261CAAC200DF7F0E /* SceneDelegate.swift */,
 				4B37F43A261CB83000DF7F0E /* Constants.swift */,
 				4B37F3D2261CB45200DF7F0E /* NetworkManager */,
+				4B500BAD2621ADFB006568EA /* Home */,
 				4B37F406261CB53400DF7F0E /* Movies */,
 				4B37F44F261CC75D00DF7F0E /* MoviesDetail */,
 				4B37F420261CB67500DF7F0E /* Models */,
@@ -228,6 +237,17 @@
 				4B37F45A261CC7B400DF7F0E /* DetailCoordinator.swift */,
 			);
 			path = MoviesDetail;
+			sourceTree = "<group>";
+		};
+		4B500BAD2621ADFB006568EA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4B500BAE2621AE18006568EA /* HomeViewController.swift */,
+				4B500BB62621AE2C006568EA /* HomeViewModel.swift */,
+				4B500BBB2621AE4C006568EA /* HomeCoordinator.swift */,
+				4B500BC02621AFDA006568EA /* homeCollectionViewCell.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		4B76A9D1B67792F8657AFCFE /* Frameworks */ = {
@@ -493,7 +513,11 @@
 			files = (
 				4B37F456261CC79B00DF7F0E /* DetailViewModel.swift in Sources */,
 				4B37F3D8261CB49C00DF7F0E /* NetworkManager.swift in Sources */,
+				4B500BAF2621AE18006568EA /* HomeViewController.swift in Sources */,
+				4B500BB72621AE2C006568EA /* HomeViewModel.swift in Sources */,
 				4B37F40B261CB54700DF7F0E /* MoviesViewController.swift in Sources */,
+				4B500BC12621AFDA006568EA /* homeCollectionViewCell.swift in Sources */,
+				4B500BBC2621AE4C006568EA /* HomeCoordinator.swift in Sources */,
 				4B37F45B261CC7B400DF7F0E /* DetailCoordinator.swift in Sources */,
 				4B37F391261CAAC200DF7F0E /* ViewController.swift in Sources */,
 				4B37F397261CAAC200DF7F0E /* Numiparis_Task.xcdatamodeld in Sources */,

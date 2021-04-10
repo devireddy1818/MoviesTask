@@ -2,8 +2,9 @@
 import UIKit
 
 enum CoordinatorNames: String {
-    case Home = "Movies"
-    
+    case Movies = "Movies"
+    case Home = "Home"
+
     
 
 
@@ -54,11 +55,11 @@ class AppCoordinator: Coordinator {
 }
 
 
-extension AppCoordinator : MoviesCoordinatorDelegate {
+extension AppCoordinator : HomeCoordinatorDelegate {
    
     func ShowHomescreen(){
            configureRootViewController(homeNavigator)
-            let homeCoordinator = MoviesCoordinator(homeNavigator)
+            let homeCoordinator = HomeCoordinator(homeNavigator)
             homeCoordinator.delegate = self
             homeCoordinator.start()
             childCoordinators[CoordinatorNames.Home] =  homeCoordinator
